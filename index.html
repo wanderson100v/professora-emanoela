@@ -66,9 +66,12 @@
 
         h1,h2,h3{
             margin: auto;
+            padding: 5px;
         }
 
         h2{
+            border-left: 5px solid #E54C62;
+            background-color: #fcc1cd;
             font-size: 18px;
             text-align: center;
         }
@@ -88,6 +91,7 @@
             padding: 20px;
             margin: 5px;
             background-color: white;
+            border-radius: 10px;
         }
 
         section>article{
@@ -97,23 +101,37 @@
 
         section>aside{
             height: 510px;
-            padding-bottom: 0;
             background-color: white;
+            border-radius: 10px;
             flex: 1;
-        }
-
-        #about-me{
             display: flex;
             flex-direction: column;
         }
 
+        #about-me{
+            margin-top: 10px;
+            display: flex;
+            height: 100%;
+            flex-direction: column;
+            background-color: white;  
+        }
+
         #about-me>p{
-           text-align: justify;
+            flex: 7;
+            margin: 0;
+            padding: 10px;
+            text-align: justify;
+            min-width: 100px;
         }
 
         #img-container{
-            justify-content: center;
-            align-items: flex-end;
+            display: none;
+            background-image: url("../res/prof_emanoela.png");
+            background-repeat: no-repeat;
+            background-position: bottom 0 left 0;
+            background-size: 100px 100px;
+            min-width: 100px;
+            min-height: 100px;
         }
 
         .big-button{
@@ -124,14 +142,16 @@
 
         footer{
             width: 100%;
-            height: 50px;
+            height: 80px;
             background-color: rgb(97, 90, 225);
             text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
         }
         footer>p{
-            padding-top: 15px;
+            flex: 1;
             margin: 0;
-            height: 100%;
             color: white;
         }
 
@@ -144,7 +164,12 @@
 
             #about-me{
                 flex-direction: row;
-                flex-wrap: wrap;
+            }
+        }
+
+        @media screen and (min-width: 840px) and (max-width: 1024px){
+            #img-container{
+                display: block;
             }
         }
     </style>
@@ -242,16 +267,14 @@
         <aside>
             <header><h3>Quem sou eu?</h3></header>
             <div id="about-me">
+                
+                <div id="img-container"></div>
+                
                 <p>Professora Emanoela Carolaine formada em licenciatura plena em letras/libras pela 
                     Universidade Federal Rural de Pernambuco (UFRPE) na Unidade Acadêmica de Serra Talhada (UAST).
                     Atualmente, atuo como professora de língua portuguêsa em turmas de sextos e sétimos ano na Escola
                     Cicero Rabeiro Nogueira em Manaíra-PB
                 </p>
-    
-                <div id="img-container">
-                    <img src="../res/prof_emanoela.png" alt="Professora Emanoela com roupa de formatura" style = "width: 200px; height: auto;">
-                </div>
-    
             </div>
         </aside>
     </section>
