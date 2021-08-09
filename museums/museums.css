@@ -1,0 +1,38 @@
+
+#museum{
+    background-color: rgb(97, 90, 225, 0.7);
+}
+
+#museum>header, .museum-item{
+    border-radius: 10px;
+}
+
+#museum>header, .museum-item{
+    padding: 20px;
+    background-color: white;
+}
+
+#museum>header{
+    margin: -20px;
+}
+.museum-item{
+    margin: 40px -20px 0px -20px;
+}
+
+.centralized-img-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.centralized-img-container>img{
+    width: 80%;
+    height: auto;
+}
+
+@media screen and (max-width: 840px) {
+    .centralized-img-container>img{
+        width: 100%;
+    }
+}
