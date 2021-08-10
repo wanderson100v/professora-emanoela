@@ -26,7 +26,7 @@ class PictureItem{
 const museums = {
     sixthA: new Museum(
         title = "6º Ano A",
-        description = "A seguir serão apresentados os itens em exposição selecionados"
+        description = "A seguir serão apresentados os itens em exposição selecionados "
         +"por alunos do 6º ano \"A\" da escola Cicero Rabelo Nogueira.",
         itens = [
 
@@ -34,7 +34,7 @@ const museums = {
                 autor = "Eliza",
                 description = "Uma antiga bomba d\'água manual. Esses equipamentos"
                     +" foram e são utilizados para retirar água de poços de forma manual"
-                    +" Desta forma, é necessário aplicar força para que retire"
+                    +". Desta forma, é necessário aplicar força para que retire-se a"
                     +" água do poço.",
                 pictures = [
                     new PictureItem(
@@ -151,8 +151,8 @@ const museums = {
     ),
     sixthD: new Museum(
         title = "6º Ano D",
-        "A seguir serão apresentados os itens em exposição selecionados"
-        +"por alunos do 6º ano \"D\" da escola Cicero Rabelo Nogueira.",
+            "A seguir serão apresentados os itens em exposição selecionados "
+            +"por alunos do 6º ano \"D\" da escola Cicero Rabelo Nogueira.",
         itens = [
 
             new MuseumItem(
@@ -259,8 +259,8 @@ const museums = {
     ),
     sixthE: new Museum(
         title = "6º Ano E",
-        "A seguir serão apresentados os itens em exposição selecionados"
-        +"por alunos do 6º ano \"E\" da escola Cicero Rabelo Nogueira.",
+            "A seguir serão apresentados os itens em exposição selecionados "
+            +"por alunos do 6º ano \"E\" da escola Cicero Rabelo Nogueira.",
         itens = [
 
             new MuseumItem(
@@ -336,8 +336,8 @@ const museums = {
     ),
     seventhC: new Museum(
         title = "7º Ano C",
-        "A seguir serão apresentados os itens em exposição selecionados"
-        +"por alunos do 7º ano \"C\" da escola Cicero Rabelo Nogueira.",
+            "A seguir serão apresentados os itens em exposição selecionados "
+            +"por alunos do 7º ano \"C\" da escola Cicero Rabelo Nogueira.",
         itens = [
 
             new MuseumItem(
