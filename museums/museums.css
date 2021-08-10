@@ -5,21 +5,19 @@
 
 #museum>header, .museum-item{
     border-radius: 10px;
-}
-
-#museum>header, .museum-item{
     padding: 20px;
     background-color: white;
 }
 
 #museum>header{
-    margin: -20px;
+    margin: -20px
 }
 .museum-item{
     margin: 40px -20px 0px -20px;
 }
 
 .centralized-img-container{
+    margin-top: 30px;
     display: flex;
     flex-direction: column;
     align-items: center;

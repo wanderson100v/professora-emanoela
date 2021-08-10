@@ -27,20 +27,18 @@ const museums = {
     sixthA: new Museum(
         title = "6º Ano A",
         description = "A seguir serão apresentados os itens em exposição selecionados"
-        +"por alunos do 6º ano \"A\" da escola Cicero Rabelo Nogueira. Nesta "
-        +"atividade foi requisitado aos alunos que escolhessem"
-        +"itens antigos que estão na posse de familiares ou conhecidos",
+        +"por alunos do 6º ano \"A\" da escola Cicero Rabelo Nogueira.",
         itens = [
 
             new MuseumItem(
                 autor = "Eliza",
-                description = "Uma antiga bomba para água manual. Esses equipamentos"
+                description = "Uma antiga bomba d\'água manual. Esses equipamentos"
                     +" foram e são utilizados para retirar água de poços de forma manual"
-                    +" Desta forma, é necessário aplicar força para que se possa retirar"
-                    +" a água do poço.",
+                    +" Desta forma, é necessário aplicar força para que retire"
+                    +" água do poço.",
                 pictures = [
                     new PictureItem(
-                        title = "Bomba d\'àgua manual",
+                        title = "Bomba d\'água manual",
                         description = "Bomba antiga para bombear água de forma manual", 
                         url = "sixth_a/Eliza-bomba-dagua.png"
                     )
@@ -63,8 +61,8 @@ const museums = {
             new MuseumItem(
                 autor = "Gleissy Firmino",
                 description = "Este item é uma boneca antiga. Segundo a aluna essa "+
-                    "boneca foi adiquirida quando sua tia naceu, e tem mais de 60 anos "+
-                    "desde então é um item importante para a família.",
+                "boneca foi adquirida quando a tia dela nasceu, e tem mais de 60 anos, "+
+                "desde então é um item importante para a família.",
                 pictures = [
                     new PictureItem(
                         title = "Boneca ",
@@ -88,7 +86,7 @@ const museums = {
 
             new MuseumItem(
                 autor = "Marcio",
-                description = "Bolsa antiga",
+                description = "Bolsa antiga.",
                 pictures = [
                     new PictureItem(
                         title = "Bolsa ",
@@ -100,16 +98,16 @@ const museums = {
 
             new MuseumItem(
                 autor = "Maria Tereza",
-                description = "Nota de mil fruzeiros",
+                description = "Notas de mil e 50 mil e cruzeiros.",
                 pictures = [
                     new PictureItem(
-                        title = "Frente da nota ",
-                        description = "frente de uma nota de mil cruzeiros", 
+                        title = "Mil cruzeiros ",
+                        description = "Nota de mil cruzeiros", 
                         url = "sixth_a/Maria-Teraza-nota-mil-cruzeiros-frente.jpeg"
                     ),
                     new PictureItem(
-                        title = "Verso da nota",
-                        description = "verso de uma nota de mil cruzeiros", 
+                        title = "50 mil cruzeiros",
+                        description = "Nota de 50 mil cruzeiros", 
                         url = "sixth_a/Maria-Teraza-nota-mil-cruzeiros-verso.jpeg"
                     )
                 ]
@@ -117,7 +115,8 @@ const museums = {
 
             new MuseumItem(
                 autor = "Pedro",
-                description = "Ferro de passar e panela de barro",
+                description = "Diversos itens antigos como ferro de passar e itens feitos "+
+                    "de barro.",
                 pictures = [
                     new PictureItem(
                         title = "Ferro de passar ",
@@ -128,14 +127,7 @@ const museums = {
                         title = "Panela de barro",
                         description = "Panela de barro antiga", 
                         url = "sixth_a/Pedro-panela-de-barro.jpeg"
-                    )
-                ]
-            ),
-
-            new MuseumItem(
-                autor = "Pedro",
-                description = "Várias objetos de barros: potes, bacias e panelas",
-                pictures = [
+                    ),
                     new PictureItem(
                         title = "Panelas de barro ",
                         description = "Várias panelas de barro empilhadas", 
@@ -159,10 +151,8 @@ const museums = {
     ),
     sixthD: new Museum(
         title = "6º Ano D",
-        description = "A seguir serão apresentados os itens em exposição selecionados"
-        +" por alunos do 6º ano \"D\" da escola Cicero Rabelo Nogueira. Nesta"
-        +" atividade foi requisitado aos alunos que escolhessem"
-        +" itens antigos que estão na posse de familiares ou conhecidos",
+        "A seguir serão apresentados os itens em exposição selecionados"
+        +"por alunos do 6º ano \"D\" da escola Cicero Rabelo Nogueira.",
         itens = [
 
             new MuseumItem(
@@ -191,11 +181,11 @@ const museums = {
 
             new MuseumItem(
                 autor = "Emerson",
-                description = "Ferro de passar a braza",
+                description = "Ferro de passar a brasa",
                 pictures = [
                     new PictureItem(
                         title = "Ferro de passar",
-                        description = "Ferro de passar antigo movido a base de braza/carvão", 
+                        description = "Ferro de passar antigo movido a base de brasa/carvão", 
                         url = "sixth_d/Emerson-Ferro-de-passar.jpeg"
                     )
                 ]
@@ -203,9 +193,9 @@ const museums = {
 
             new MuseumItem(
                 autor = "Ivania",
-                description = "A seguir, a Ivania, nós apresenta um moedor de milho."+
-                    " O milho moido é a base para diversas comidas típicas como, angu, "+
-                    "cuscuz, bolos entre outros. ",
+                description = "A seguir, à Ivania, nós apresenta um moedor de milho."+
+                    " O milho moído é a base para diversas comidas típicas como: angu, "+
+                    "cuscuz, bolos entre outros.",
                 pictures = [
                     new PictureItem(
                         title = "Moedor de milho",
@@ -217,7 +207,7 @@ const museums = {
 
             new MuseumItem(
                 autor = "João Vitor",
-                description = "Panela de barro",
+                description = "Panela de barro.",
                 pictures = [
                     new PictureItem(
                         title = "Panela de barro",
@@ -229,10 +219,10 @@ const museums = {
 
             new MuseumItem(
                 autor = "Michelly",
-                description = "Moedas antigas",
+                description = "Moedas antigas.",
                 pictures = [
                     new PictureItem(
-                        title = "Moeda de 1 centavo",
+                        title = "Moeda de 1 centavo de 1994",
                         description = "Frente de uma moeda de 1 centavo", 
                         url = "sixth_d/Michelly-moeda-1-centavo-frente.png"
                     ),
@@ -242,7 +232,7 @@ const museums = {
                         url = "sixth_d/Michelly-moeda-1-centavo-verso.png"
                     ),
                     new PictureItem(
-                        title = "Moeda de 5 cruzeiros",
+                        title = "Moeda de 5 cruzeiros de 1982",
                         description = "frente de uma moeda de 5 cruzeiros", 
                         url = "sixth_d/Michelly-moeda-5-cruzeiros-frente.png"
                     ),
@@ -256,7 +246,7 @@ const museums = {
 
             new MuseumItem(
                 autor = "Natan",
-                description = "Ferro de fornalha",
+                description = "Ferro de fornalha.",
                 pictures = [
                     new PictureItem(
                         title = "Ferro de fornalha",
@@ -269,15 +259,13 @@ const museums = {
     ),
     sixthE: new Museum(
         title = "6º Ano E",
-        description = "A seguir serão apresentados os itens em exposição selecionados"
-        +" por alunos do 6º ano \"E\" da escola Cicero Rabelo Nogueira. Nesta"
-        +" atividade foi requisitado aos alunos que escolhessem"
-        +" itens antigos que estão na posse de familiares ou conhecidos",
+        "A seguir serão apresentados os itens em exposição selecionados"
+        +"por alunos do 6º ano \"E\" da escola Cicero Rabelo Nogueira.",
         itens = [
 
             new MuseumItem(
                 autor = "Angela",
-                description = "Moeda",
+                description = "Moeda.",
                 pictures = [
                     new PictureItem(
                         title = "Moeda antiga",
@@ -313,7 +301,7 @@ const museums = {
 
             new MuseumItem(
                 autor = "Gustavo",
-                description = "Moedas antigas",
+                description = "Moedas antigas: cruzeiros e centavo",
                 pictures = [
                     new PictureItem(
                         title = "Moeda de 1 cruzeiro de 1980",
@@ -335,7 +323,7 @@ const museums = {
 
             new MuseumItem(
                 autor = "Janaína",
-                description = "Pote de barro",
+                description = "Pote de barro.",
                 pictures = [
                     new PictureItem(
                         title = "Pote de barro",
@@ -346,39 +334,37 @@ const museums = {
             ),
         ]  
     ),
-    seventhA: new Museum(
-        title = "7º Ano A",
-        description = "A seguir serão apresentados os itens em exposição selecionados"
-        +" por alunos do 6º ano \"A\" da escola Cicero Rabelo Nogueira. Nesta"
-        +" atividade foi requisitado aos alunos que escolhessem"
-        +" itens antigos que estão na posse de familiares ou conhecidos",
+    seventhC: new Museum(
+        title = "7º Ano C",
+        "A seguir serão apresentados os itens em exposição selecionados"
+        +"por alunos do 7º ano \"C\" da escola Cicero Rabelo Nogueira.",
         itens = [
 
             new MuseumItem(
                 autor = "Mavielly",
-                description = "Candeeiro e catiçal",
+                description = "Candeeiro e catiçal.",
                 pictures = [
                     new PictureItem(
                         title = "Candeeiro",
                         description = "Candeeiro", 
-                        url = "seventh_a/Mavielly-candeeiro.jpeg"
+                        url = "seventh_c/Mavielly-candeeiro.jpeg"
                     ),
                     new PictureItem(
                         title = "Castiçal",
                         description = "Castiçal", 
-                        url = "seventh_a/Mavielly-castical.jpeg"
+                        url = "seventh_c/Mavielly-castical.jpeg"
                     )
                 ]
             ),
 
             new MuseumItem(
                 autor = "Viviane",
-                description = "Ferro de passar roupas",
+                description = "Ferro de passar roupas a brasa.",
                 pictures = [
                     new PictureItem(
                         title = "Ferro de passar",
                         description = "Ferro de passar roupas", 
-                        url = "seventh_a/Viviane-ferro-de-passar.jpeg"
+                        url = "seventh_c/Viviane-ferro-de-passar.jpeg"
                     )
                 ]
             ),
@@ -395,8 +381,8 @@ if(document.URL.indexOf("sixth/a") >= 0){
     museum = museums.sixthD;
 }else if(document.URL.indexOf("sixth/e") >= 0){
     museum = museums.sixthE;
-}else if(document.URL.indexOf("seventh/a") >= 0){
-    museum = museums.seventhA;
+}else if(document.URL.indexOf("seventh/c") >= 0){
+    museum = museums.seventhC;
 }
 
 document.getElementById("museum-title").innerHTML = museum.title;
