@@ -46,6 +46,19 @@ const museums = {
             ),
 
             new MuseumItem(
+                autor = "Elóa",
+                description = "A seguir pode-se visualizar uma escultura de gesso. Segundo a aluna, é "+
+                "uma retratação de São Longuinho.",
+                pictures = [
+                    new PictureItem(
+                        title = "São Longuinho",
+                        description = "São Longuinho", 
+                        url = "sixth_a/Eloa-sao-longinho.jpeg"
+                    )
+                ]
+            ),
+
+            new MuseumItem(
                 autor = "Eduardo Oliveira",
                 description = "Parte de um pilão, geralmente utilizado para moer grãos"
                     +" como o do milho.",
